@@ -1,0 +1,73 @@
+/* Create home page layout */
+html,
+body,
+.bg-image,
+.bg-color {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    border: 1px solid red;
+}
+
+
+header,
+main,
+footer {
+    border: 1px solid black;
+}
+
+
+/* small screens */
+@media(min-width: 320px) and (max-width: 414px){
+    .bg-color {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 70px auto 70px;
+    }
+
+
+    header {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2; 
+    }
+
+    
+    main {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3; 
+    }
+
+
+    footer {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4; 
+    }
+}
+
+
+/* medium screens and large screens */
+@media(min-width: 768px){
+    .bg-color {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 70px auto 70px;
+    }
+    
+    
+    header {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2; 
+    }
+    
+    
+    main {
+        grid-column: 2 / -2;
+        grid-row: 2 / 3; 
+    }
+    
+    
+    footer {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4; 
+    }
+} 
