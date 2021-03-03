@@ -59,6 +59,23 @@ a {
     main {
         grid-column: 1 / -1;
         grid-row: 2 / 3; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center; 
+    }
+
+
+    .home-intro {
+        border: 1px solid red;
+        padding: 20px;
+    }
+
+
+    .home-intro > img {
+        width: 145px;
+        height: 140px;
+        border-radius: 100px;
     }
 
 
@@ -104,6 +121,28 @@ a {
     main {
         grid-column: 2 / -2;
         grid-row: 2 / 3; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+    }
+
+
+    .home-intro {
+        border: 1px solid red;
+        padding: 20px;
+    }
+
+
+    .home-intro > img {
+        width: 195px;
+        height: 190px;
+        border-radius: 100px;
+    }
+
+
+    .home-intro > p {
+        width: 500px;
     }
     
     
