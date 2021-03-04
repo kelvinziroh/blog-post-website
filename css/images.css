@@ -1,0 +1,38 @@
+@media(min-width: 280px) and (max-width: 414px){
+    .bg-image {
+        background-image: url(/Users/kelvin/Desktop/blog-post-website/img/lucie-morel-tKTHCHPaRXs-unsplash.jpg);
+        background-size: cover;
+    }
+
+
+    .bg-color {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
+    .home-intro > img {
+        width: 140px;
+        height: 135px;
+        border-radius: 100px;
+    }
+}
+
+
+@media(min-width: 540px){
+    .bg-image {
+        background-image: url(/Users/kelvin/Desktop/blog-post-website/img/giuseppe-famiani-aP8FliBuOz4-unsplash.jpg);
+        background-size: cover;
+    }
+
+
+    .bg-color {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+
+    .home-intro > img {
+        width: 195px;
+        height: 190px;
+        border-radius: 100px;
+    }
+}

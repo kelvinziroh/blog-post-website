@@ -1,0 +1,157 @@
+/* Create home page layout */
+html,
+body,
+.bg-color {
+    margin: auto;
+    height: 100%;
+}
+
+
+@media(min-width: 280px) and (max-width: 426px){
+    .bg-color {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 70px auto 70px;
+    }
+
+
+    /* header content  */
+    header {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2; 
+        display: flex;
+        margin: 0;
+        height: 70px; 
+        justify-content: space-around;
+    }
+
+
+    header > div {
+        padding: 25px 0;
+    }
+
+
+    header > div:first-child {
+        padding: 20px 0;
+    }
+
+    
+    /* main content */
+    main {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center; 
+    }
+
+
+    .home-intro {
+        padding: 20px;
+    }
+
+
+    /* footer content */
+    footer {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4; 
+        display: flex;
+        height: 70px;
+        margin: 0;
+        padding: 0 20px;
+    } 
+    
+    
+    footer > div {
+        padding: 25px 5px;
+    }
+
+
+    footer > div:last-child {
+        margin-left: auto;
+        padding: 10px 5px;
+    }
+}
+
+
+/* medium screens and large screens */
+@media(min-width: 427px){
+    .bg-color {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 70px auto 70px;
+    }
+    
+    
+    /* header content */
+    header {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        display: flex;
+        margin: 0;
+        height: 70px; 
+    }
+    
+    
+    header > div {
+        padding: 25px 25px;
+    }
+
+
+    header > div:first-child {
+        padding: 20px 25px;
+    }
+
+
+    header > div:nth-child(2){
+        margin-left: auto;
+    }
+
+
+    /* main content */
+    main {
+        grid-column: 2 / -2;
+        grid-row: 2 / 3; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+    }
+
+
+    .home-intro {
+        padding: 20px;
+    }
+
+
+    .home-intro > p {
+        width: 500px;
+    }
+    
+    
+    /* footer content */
+    footer {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4; 
+        display: flex;
+        height: 70px;
+        margin: 0;
+    }  
+    
+    
+    footer > div {
+        padding: 25px 5px;
+    }
+
+
+    footer > div:first-child {
+        margin: 0 0 0 50px;  
+    }
+
+
+    footer > div:last-child {
+        margin: 0 50px 0 auto;
+        padding: 5px 5px;
+    }
+}
