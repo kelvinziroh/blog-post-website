@@ -10,11 +10,24 @@ body,
 }
 
 
-/* header,
-main,
-footer {
-    border: 1px solid black;
-} */
+p,
+a {
+    font-size: 20px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+.home-intro > h1 {
+    font-size: 30px;
+}
+
+.home-intro > h1,
+.logo {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
 
 
 header > div {
@@ -52,6 +65,11 @@ a {
     header > div {
         /* border: 1px solid black; */
         padding: 25px 0;
+    }
+
+
+    header > div:first-child {
+        padding: 20px 0;
     }
 
     
@@ -98,7 +116,12 @@ a {
 
     footer > div:last-child {
         margin-left: auto;
-        padding: 8px 5px;
+        padding: 10px 5px;
+    }
+
+
+    footer > div > p {
+        font-size: 16px;
     }
 }
 
@@ -125,6 +148,11 @@ a {
     
     header > div {
         padding: 25px 25px;
+    }
+
+
+    header > div:first-child {
+        padding: 20px 25px;
     }
 
 
@@ -185,6 +213,6 @@ a {
 
     footer > div:last-child {
         margin: 0 50px 0 auto;
-        padding: 8px 5px;
+        padding: 5px 5px;
     }
 } 
