@@ -11,3 +11,16 @@
         display: flex;
     }
 }
+
+@media(min-width: 427px){
+    .blog-card {
+        width: 300px;
+        box-shadow: 0px 0px 10px 2px grey;
+        border-radius: 10px;
+    }
+
+
+    .blog-card-info {
+        display: flex;
+    }
+}

@@ -87,4 +87,22 @@ a {
     .home-intro > h1 {
         font-size: 30px;
     }
+
+
+    .blog-intro > h1,
+    .blog-intro > p {
+        text-align: center;
+        margin: 0;
+    }
+
+
+    .blog-intro > h1 {
+        margin-top: 55px;
+        padding-bottom: 0;
+    }
+
+    .blog-intro {
+        color: white;
+        background-color: black;
+    }
 }
