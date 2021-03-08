@@ -25,6 +25,12 @@ a {
 }
 
 
+footer > div > a,
+header > div > a {
+    color: black; 
+}
+
+
 a {
     text-decoration: none;
 }
