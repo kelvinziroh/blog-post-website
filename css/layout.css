@@ -63,6 +63,12 @@ body,
     }
 
 
+    .blog-cards-container {
+        grid-row: 2 / 3;
+        height: auto;
+    }
+
+
     .home-intro {
         padding: 20px;
     }
