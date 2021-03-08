@@ -1,4 +1,4 @@
-@media(min-width: 280px) and (max-width: 414px){
+@media(min-width: 280px) and (max-width: 426px){
     .bg-image {
         background-image: url(/Users/kelvin/Desktop/blog-post-website/img/lucie-morel-tKTHCHPaRXs-unsplash.jpg);
         background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 
-@media(min-width: 540px){
+@media(min-width: 427px){
     .bg-image {
         background-image: url(/Users/kelvin/Desktop/blog-post-website/img/giuseppe-famiani-aP8FliBuOz4-unsplash.jpg);
         background-size: cover;

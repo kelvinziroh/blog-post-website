@@ -12,7 +12,7 @@ a {
 }
 
 
-.home-intro > h1,
+h1,
 .logo {
     font-family: 'Oswald', sans-serif;
 }
@@ -37,7 +37,7 @@ a {
 
 
 /* small screens */
-@media(min-width: 280px) and (max-width: 414px){
+@media(min-width: 280px) and (max-width: 426px){
     .home-intro > h1 {
         font-size: 20px;
     }
@@ -51,10 +51,29 @@ a {
     footer > div > p {
         font-size: 16px;
     }
+
+
+    .blog-intro > h1,
+    .blog-intro > p {
+        text-align: center;
+        margin: 0;
+    }
+
+
+    .blog-intro > h1 {
+        margin-top: 12px;
+        padding-bottom: 0;
+    }
+
+
+    .blog-intro {
+        color: white;
+        background-color: black;
+    }
 }
 
 
-@media(min-width: 540px){
+@media(min-width: 427px){
     .home-intro > h1 {
         font-size: 30px;
     }

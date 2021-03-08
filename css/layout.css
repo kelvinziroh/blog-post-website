@@ -38,15 +38,28 @@ body,
 
     
     /* main content */
-    main,
-    .blog-intro,
-    .blog-cards-container {
+    main {
         grid-column: 1 / -1;
         grid-row: 2 / 3; 
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         align-items: center; 
+    }
+
+
+    .blog-content {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 120px auto;
+    }
+
+
+    .blog-intro {
+        grid-row: 1 / 2;
+        height: 120px;
     }
 
 
