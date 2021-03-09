@@ -41,6 +41,11 @@ a {
 }
 
 
+.blog-card > .blog-card-info > h3 > a {
+    color: black;
+}
+
+
 .blog-post-content > h1 {
     margin: 0; 
 }
@@ -111,6 +116,26 @@ a {
         font-size: 18px;
         margin: 25px 10px 25px 10px;
         color: black;
+    }
+
+
+    .blog-post-content > h1 {
+        line-height: 1em;
+    }
+
+
+    .blog-post-content > article > p {
+        line-height: 1.5em;
+    }
+
+
+    .blog-post-content {
+        padding: 10px;
+    }
+
+
+    .blog-post-content > .author-info {
+        margin-bottom: 10px;
     }
 
 
@@ -188,8 +213,8 @@ a {
     }
 
 
-    .author-info > img {
-        margin: 0 15px;
+    .blog-post-content > article > p {
+        line-height: 1.5em;
     }
 
 

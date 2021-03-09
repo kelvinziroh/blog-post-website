@@ -47,6 +47,20 @@ body,
     }
 
 
+    .blog-post-content {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+
+    .author-info {
+        display: flex;
+    }
+
+
     .blog-intro {
         grid-row: 1 / 2;
         height: 120px;
@@ -68,9 +82,6 @@ body,
         margin: 0;
         padding: 0 20px;
     } 
-    
-    
-    
 }
 
 
