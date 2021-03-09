@@ -41,19 +41,49 @@ a {
 }
 
 
+.blog-post-content > h1 {
+    margin: 0; 
+}
+
+
+.blog-post-content > h2,
+.blog-post-content > article > h2 {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+.blog-post-content > p > a,
+.blog-post-content > article > p > a {
+    text-decoration: underline;
+    color: black;
+}
+
+
 /* small screens */
 @media(min-width: 280px) and (max-width: 426px){
+    /* header content */
+    header > div {
+        padding: 25px 0;
+    }
+
+
+    header > div:first-child {
+        padding: 20px 0;
+    }
+
+
+    /* main content */
     .home-intro > h1 {
         font-size: 20px;
     }
 
-    
-    p {
-        font-size: 16px;
+
+    .home-intro {
+        padding: 20px;
     }
 
-
-    footer > div > p {
+    
+    p {
         font-size: 16px;
     }
 
@@ -79,11 +109,47 @@ a {
 
     .blog-card > .blog-card-info > h3 {
         font-size: 18px;
+        margin: 25px 10px 25px 10px;
+        color: black;
+    }
+
+
+    /* footer content */
+    footer > div > p {
+        font-size: 16px;
+    }
+
+
+    footer > div {
+        padding: 25px 5px;
+    }
+
+
+    footer > div:last-child {
+        margin-left: auto;
+        padding: 10px 5px;
     }
 }
 
 
 @media(min-width: 427px){
+    /* header content */
+    header > div {
+        padding: 25px 25px;
+    }
+
+
+    header > div:first-child {
+        padding: 20px 25px;
+    }
+
+
+    header > div:nth-child(2){
+        margin-left: auto;
+    }
+
+
+    /* main content */
     .home-intro > h1 {
         font-size: 30px;
     }
@@ -104,5 +170,42 @@ a {
     .blog-intro {
         color: white;
         background-color: black;
+    }
+
+
+    .blog-cards-container > .blog-card {
+        margin:  15px auto;
+    }
+
+
+    .home-intro {
+        padding: 20px;
+    }
+
+
+    .home-intro > p {
+        width: 500px;
+    }
+
+
+    .author-info > img {
+        margin: 0 15px;
+    }
+
+
+    /* footer content */
+    footer > div {
+        padding: 25px 5px;
+    }
+
+
+    footer > div:first-child {
+        margin: 0 0 0 50px;  
+    }
+
+
+    footer > div:last-child {
+        margin: 0 50px 0 auto;
+        padding: 5px 5px;
     }
 }
